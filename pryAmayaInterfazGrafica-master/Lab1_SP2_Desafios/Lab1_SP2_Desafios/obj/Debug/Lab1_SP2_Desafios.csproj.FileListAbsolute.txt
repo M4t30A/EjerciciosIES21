@@ -1,0 +1,11 @@
+C:\Users\Alumno\source\repos\Lab1_SP2_Desafios\Lab1_SP2_Desafios\obj\Debug\Lab1_SP2_Desafios.csproj.AssemblyReference.cache
+C:\Users\Alumno\source\repos\Lab1_SP2_Desafios\Lab1_SP2_Desafios\obj\Debug\Lab1_SP2_Desafios.csproj.CoreCompileInputs.cache
+C:\Users\Alumno\source\repos\Lab1_SP2_Desafios\Lab1_SP2_Desafios\bin\Debug\Lab1_SP2_Desafios.exe.config
+C:\Users\Alumno\source\repos\Lab1_SP2_Desafios\Lab1_SP2_Desafios\bin\Debug\Lab1_SP2_Desafios.exe
+C:\Users\Alumno\source\repos\Lab1_SP2_Desafios\Lab1_SP2_Desafios\bin\Debug\Lab1_SP2_Desafios.pdb
+C:\Users\Alumno\source\repos\Lab1_SP2_Desafios\Lab1_SP2_Desafios\obj\Debug\Lab1_SP2_Desafios.exe
+C:\Users\Alumno\source\repos\Lab1_SP2_Desafios\Lab1_SP2_Desafios\obj\Debug\Lab1_SP2_Desafios.pdb
+C:\Users\Alumno\source\repos\Lab1_SP2_Desafios\Lab1_SP2_Desafios\obj\Debug\Lab1_SP2_Desafios.Desafio04.resources
+C:\Users\Alumno\source\repos\Lab1_SP2_Desafios\Lab1_SP2_Desafios\obj\Debug\Lab1_SP2_Desafios.csproj.GenerateResource.cache
+C:\Users\Alumno\source\repos\Lab1_SP2_Desafios\Lab1_SP2_Desafios\obj\Debug\Lab1_SP2_Desafios.Desafio01.resources
+C:\Users\Alumno\source\repos\Lab1_SP2_Desafios\Lab1_SP2_Desafios\obj\Debug\Lab1_SP2_Desafios.Desafio07.resources

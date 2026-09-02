@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A1B2C3D4-1111-4A5B-9C8D-000000000001}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Lab1_SP2_Desafios</RootNamespace>
+    <AssemblyName>Lab1_SP2_Desafios</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Desafio01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desafio01.Designer.cs">
+      <DependentUpon>Desafio01.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Desafio02.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desafio02.Designer.cs">
+      <DependentUpon>Desafio02.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Desafio03.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desafio03.Designer.cs">
+      <DependentUpon>Desafio03.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Desafio04.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desafio04.Designer.cs">
+      <DependentUpon>Desafio04.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Desafio05.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desafio05.Designer.cs">
+      <DependentUpon>Desafio05.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Desafio06.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desafio06.Designer.cs">
+      <DependentUpon>Desafio06.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Desafio07.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desafio07.Designer.cs">
+      <DependentUpon>Desafio07.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Desafio08.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desafio08.Designer.cs">
+      <DependentUpon>Desafio08.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Desafio09.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desafio09.Designer.cs">
+      <DependentUpon>Desafio09.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Desafio10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desafio10.Designer.cs">
+      <DependentUpon>Desafio10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Desafio01.resx">
+      <DependentUpon>Desafio01.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Desafio04.resx">
+      <DependentUpon>Desafio04.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Desafio07.resx">
+      <DependentUpon>Desafio07.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Desafio10.resx">
+      <DependentUpon>Desafio10.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
