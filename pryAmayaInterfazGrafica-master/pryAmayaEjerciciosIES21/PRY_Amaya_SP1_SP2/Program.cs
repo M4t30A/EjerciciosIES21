@@ -1,19 +1,17 @@
 using pryAmayaEjerciciosIES21;
+using System.Windows.Forms;
 
 namespace pryAmayaInterfazGrafica
 {
     internal static class Program
     {
-        /// <summary>
-        ///  The main entry point for the application.
-        /// </summary>
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new frmAmayaAreaRectangulo());
+            // Mensaje temporal para comprobar que Main se ejecuta
+            MessageBox.Show("Arranca Main", "Diagnóstico", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            Application.Run(new ReservadeCabaña());
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace pryAmayaInterfazGrafica
+namespace pryAmayaEjerciciosIES21
 {
     public partial class frmAmayaConversionTemperaturas : Form
     {

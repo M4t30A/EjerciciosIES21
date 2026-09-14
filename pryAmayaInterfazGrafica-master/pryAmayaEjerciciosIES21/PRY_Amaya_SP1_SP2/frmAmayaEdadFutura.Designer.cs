@@ -1,4 +1,4 @@
-﻿namespace pryAmayaInterfazGrafica
+﻿namespace pryAmayaEjerciciosIES21
 {
     partial class frmAmayaEdadFutura
     {
