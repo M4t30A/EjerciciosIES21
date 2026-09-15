@@ -59,7 +59,6 @@
             gbDistancia.TabIndex = 1;
             gbDistancia.TabStop = false;
             gbDistancia.Text = "Distancia";
-            gbDistancia.Enter += groupBox1_Enter;
             // 
             // rbCorta
             // 
@@ -91,6 +90,7 @@
             btnRegistrar.TabIndex = 4;
             btnRegistrar.Text = "Registrar";
             btnRegistrar.UseVisualStyleBackColor = true;
+            btnRegistrar.Click += btnRegistrar_Click;
             // 
             // lblFecha
             // 
@@ -125,7 +125,6 @@
             lblTipoBoleto.Size = new Size(31, 15);
             lblTipoBoleto.TabIndex = 8;
             lblTipoBoleto.Text = "Tipo";
-            lblTipoBoleto.Click += lblTipoBoleto_Click;
             // 
             // txtCodigo
             // 
@@ -149,6 +148,7 @@
             Controls.Add(cboTipoBoleto);
             Name = "frmPrincipal";
             Text = "Venta Boleteria";
+            Load += frmPrincipal_Load;
             gbDistancia.ResumeLayout(false);
             gbDistancia.PerformLayout();
             ResumeLayout(false);
