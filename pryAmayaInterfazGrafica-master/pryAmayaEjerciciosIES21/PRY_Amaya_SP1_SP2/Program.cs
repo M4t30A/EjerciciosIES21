@@ -11,7 +11,7 @@ namespace pryAmayaInterfazGrafica
             ApplicationConfiguration.Initialize();
             // Mensaje temporal para comprobar que Main se ejecuta
             MessageBox.Show("Arranca Main", "Diagnóstico", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            Application.Run(new ReservadeCabaña());
+            Application.Run(new frmPrincipal());
         }
     }
 }
