@@ -17,51 +17,68 @@
 
         private void InitializeComponent()
         {
-            this.lblNombre = new System.Windows.Forms.Label();
-            this.txtNombre = new System.Windows.Forms.TextBox();
-            this.btnSaludar = new System.Windows.Forms.Button();
-            this.lblResultado = new System.Windows.Forms.Label();
-            this.SuspendLayout();
-
-            this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(30, 30);
-            this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(100, 13);
-            this.lblNombre.TabIndex = 0;
-            this.lblNombre.Text = "Ingrese su nombre:";
-
-            this.txtNombre.Location = new System.Drawing.Point(140, 27);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(180, 20);
-            this.txtNombre.TabIndex = 1;
-
-            this.btnSaludar.Location = new System.Drawing.Point(140, 65);
-            this.btnSaludar.Name = "btnSaludar";
-            this.btnSaludar.Size = new System.Drawing.Size(100, 25);
-            this.btnSaludar.TabIndex = 2;
-            this.btnSaludar.Text = "Saludar";
-            this.btnSaludar.UseVisualStyleBackColor = true;
-            this.btnSaludar.Click += new System.EventHandler(this.btnSaludar_Click);
-
-            this.lblResultado.AutoSize = true;
-            this.lblResultado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResultado.Location = new System.Drawing.Point(30, 110);
-            this.lblResultado.Name = "lblResultado";
-            this.lblResultado.Size = new System.Drawing.Size(0, 15);
-            this.lblResultado.TabIndex = 3;
-
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(360, 150);
-            this.Controls.Add(this.lblResultado);
-            this.Controls.Add(this.btnSaludar);
-            this.Controls.Add(this.txtNombre);
-            this.Controls.Add(this.lblNombre);
-            this.Name = "frmAmayaSaludo";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Saludo con Año Actual";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAmayaSaludo));
+            lblNombre = new Label();
+            txtNombre = new TextBox();
+            btnSaludar = new Button();
+            lblResultado = new Label();
+            SuspendLayout();
+            // 
+            // lblNombre
+            // 
+            lblNombre.AutoSize = true;
+            lblNombre.Location = new Point(35, 35);
+            lblNombre.Margin = new Padding(4, 0, 4, 0);
+            lblNombre.Name = "lblNombre";
+            lblNombre.Size = new Size(108, 15);
+            lblNombre.TabIndex = 0;
+            lblNombre.Text = "Ingrese su nombre:";
+            // 
+            // txtNombre
+            // 
+            txtNombre.Location = new Point(163, 31);
+            txtNombre.Margin = new Padding(4, 3, 4, 3);
+            txtNombre.Name = "txtNombre";
+            txtNombre.Size = new Size(209, 23);
+            txtNombre.TabIndex = 1;
+            // 
+            // btnSaludar
+            // 
+            btnSaludar.Location = new Point(163, 75);
+            btnSaludar.Margin = new Padding(4, 3, 4, 3);
+            btnSaludar.Name = "btnSaludar";
+            btnSaludar.Size = new Size(117, 29);
+            btnSaludar.TabIndex = 2;
+            btnSaludar.Text = "Saludar";
+            btnSaludar.UseVisualStyleBackColor = true;
+            btnSaludar.Click += btnSaludar_Click;
+            // 
+            // lblResultado
+            // 
+            lblResultado.AutoSize = true;
+            lblResultado.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblResultado.Location = new Point(35, 127);
+            lblResultado.Margin = new Padding(4, 0, 4, 0);
+            lblResultado.Name = "lblResultado";
+            lblResultado.Size = new Size(0, 15);
+            lblResultado.TabIndex = 3;
+            // 
+            // frmAmayaSaludo
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(420, 173);
+            Controls.Add(lblResultado);
+            Controls.Add(btnSaludar);
+            Controls.Add(txtNombre);
+            Controls.Add(lblNombre);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(4, 3, 4, 3);
+            Name = "frmAmayaSaludo";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Saludo con Año Actual";
+            ResumeLayout(false);
+            PerformLayout();
         }
         #endregion
 

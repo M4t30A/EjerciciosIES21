@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCajaDeTexto));
             lblPrecio = new Label();
             lblCategoria = new Label();
             lblLaboratorio = new Label();
@@ -160,6 +161,7 @@
             Controls.Add(lblMedicamento);
             Controls.Add(lblCodigo);
             Controls.Add(lblAltaDeMedicamento);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "frmCajaDeTexto";
             Text = "Farmacia Versiòn 2";
             Load += frmCajaDeTexto_Load;

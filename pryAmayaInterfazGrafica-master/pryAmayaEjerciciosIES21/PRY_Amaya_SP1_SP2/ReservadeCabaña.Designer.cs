@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ReservadeCabaña));
             btmAceptar = new Button();
             chkTelevisor = new CheckBox();
             chkHeladera = new CheckBox();
@@ -310,6 +311,7 @@
             Controls.Add(grpBox1);
             Controls.Add(groupBox1);
             Controls.Add(groupBox2);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "ReservadeCabaña";
             Text = "ReservadeCabaña";
             Load += ReservadeCabaña_Load;

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmPrincipal));
             cboTipoBoleto = new ComboBox();
             gbDistancia = new GroupBox();
             rbCorta = new RadioButton();
@@ -146,6 +147,7 @@
             Controls.Add(btnRegistrar);
             Controls.Add(gbDistancia);
             Controls.Add(cboTipoBoleto);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "frmPrincipal";
             Text = "Venta Boleteria";
             Load += frmPrincipal_Load;
